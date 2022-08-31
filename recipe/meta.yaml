@@ -26,6 +26,8 @@ requirements:
     - scipy
     - gsw
     - pooch
+    - xgcm
+    - netcdf4
 
 test:
   imports:
