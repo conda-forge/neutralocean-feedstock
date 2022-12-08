@@ -1,5 +1,5 @@
 {% set name = "neutralocean" %}
-{% set version = "1.0.1" %}
+{% set version = "1.0.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/neutralocean-{{ version }}.tar.gz
-  sha256: b2a1e77c629a0dbea4d8ac6d2d7bf40f8580e0fb462fb89625951b077fb68173
+  sha256: c775b720db86ae098833412d62d20a9a674b9c3e065027d3fbffcd8ddf7c0e7f
 
 build:
   noarch: python
