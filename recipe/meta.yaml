@@ -1,6 +1,6 @@
 {% set name = "neutralocean" %}
 {% set version = "2.5.1" %}
-{% set python_min = "3.8" %}
+{% set python_min = "3.12" %}
 
 package:
   name: {{ name|lower }}
@@ -19,17 +19,15 @@ requirements:
   host:
     - python {{ python_min }}
     - pip
-    - setuptools
+    - setuptools >=69
+    - wheel
   run:
     - python >={{ python_min }}
     - numba
     - numpy
     - xarray
     - scipy
-    - gsw
-    - pooch
     - xgcm
-    - netcdf4
 
 test:
   imports:
