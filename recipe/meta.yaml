@@ -1,5 +1,5 @@
 {% set name = "neutralocean" %}
-{% set version = "2.4.1" %}
+{% set version = "2.5.1" %}
 {% set python_min = "3.8" %}
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/neutralocean-{{ version }}.tar.gz
-  sha256: e3ac838b3b17365616884eb2c87995d44012d37e529ffcd0c6e6473e4a4d9490
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/neutralocean-{{ version }}.tar.gz
+  sha256: e3b5b4240b627a0f2167d8bcecacd2ed9e022bf2d88300523f1782cb8ceca354
 
 build:
   noarch: python
